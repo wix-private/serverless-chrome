@@ -15,7 +15,7 @@ import http from 'http'
 import { delay, debug, makeTempDir, clearConnection } from './utils'
 import DEFAULT_CHROME_FLAGS from './flags'
 
-const CHROME_PATH = path.resolve(__dirname, './headless-chromium')
+const CHROME_PATH = path.resolve(__dirname, './stable-headless-chromium')
 
 export default class Launcher {
   constructor (options = {}) {

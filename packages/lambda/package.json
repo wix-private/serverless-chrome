@@ -34,11 +34,11 @@
     "clean": "rm -Rf dist/ ./**.zip",
     "test": "npm run test:integration",
     "test:integration": "scripts/test-integration.sh",
-    "build": "rollup -c",
+    "build": "rollup -c && npm run package-binaries",
     "dev": "rollup -c -w",
     "prepublishOnly": "npm run clean && npm run build",
     "postinstall": "node scripts/postinstall.js",
-    "package-binaries": "scripts/package-binaries.sh",
+    "package-binaries": "scripts/package-binaries.sh chromium stable",
     "latest-browser-versions": "scripts/latest-versions.sh",
     "upgrade-dependencies": "yarn upgrade-interactive --latest --exact"
   },
